@@ -8,7 +8,6 @@ Created on Sat May 15 12:54:41 2021
 document_assembler=Documen 
 import numpy as np
 
-
 from PreProcessing_FeatureExtraction.connect_center import connect_centres
 from PreProcessing_FeatureExtraction.detect_vein_center_assign_score import compute_vein_score
 from PreProcessing_FeatureExtraction.label import binaries
