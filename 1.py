@@ -40,3 +40,5 @@ def thinning_morph(image, kernal):
     :return: thin images"""
     thinning_image=np.zeros_like(image)
     img=image.copy()
+    
+    
