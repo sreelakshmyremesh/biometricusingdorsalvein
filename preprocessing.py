@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun May 16 19:49:47 2021
 
-@author: USER
-"""
 
 import os
 
@@ -13,16 +8,15 @@ from scipy.signal import convolve2d
 from PreProcessing_FeatureExtraction.normalize import normalize_data
 
 dir = os.path.dirname(os.path.realpath(__file__))
-# print(dir)
 filepath = os.path.join(dir, 'MexicanHatKernalData')
 
 
-# print(filepath)
+
 def remove_hair(image, mexican_kernel_size, low=1, high=4):
 
 	try:
 		read_kernel = cv2.imread(os.path.join(filepath, f'Kernel {mexican_kernel_size}.jpg'), 0)
-	#print(read_kernel)
+
 	except FileNotFoundError:
 		print('please choose correct size of kernel')
 
