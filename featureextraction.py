@@ -62,3 +62,4 @@ def compute_curvature(image, sigma):
     image_g2_90 = 10 * Image.convolve(Image, G2_90, mode='nearest')
     fxy = Image.convolve(image, hxy, mode='nearest')
     
+

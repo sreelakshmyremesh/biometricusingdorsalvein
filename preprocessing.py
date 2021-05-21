@@ -39,3 +39,4 @@ plt.title('Processed Image')
 plt.suptitle("Hair Removal")
 plt.tight_layout()
 plt.show()
+"""
