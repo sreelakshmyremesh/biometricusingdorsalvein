@@ -38,7 +38,7 @@ plt.show()
 
 def compute_curvature(image, sigma):
     
-    #1. constructs the 2D gaussian filter "h" given the window size
+    #1. constructs the 2D gaussian filter "h" given the window 
     
     winsize=np.cell(4*sign) #enough space for the filter
     window=np.arrange(-winsize,winsize+1)
@@ -55,7 +55,7 @@ def compute_curvature(image, sigma):
     hxy = ((X * Y) / (sigma ** 8)) * G
     
     #3. calculates derivatives w.r.t. to all directions
-    
+        
     image_g1_0 = 0.1 * Image.convolve(image, G1_0, mode='nearest')
     image_g2_0 = 10  * Image.convolve(image, G2_0, mode='nearest')
     image_g1_90 = 0.1 * Image.convolve(image, G1_90, mode='nearest')

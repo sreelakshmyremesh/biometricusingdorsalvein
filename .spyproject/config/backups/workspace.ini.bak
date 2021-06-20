@@ -6,5 +6,5 @@ save_non_project_files = False
 
 [main]
 version = 0.2.0
-recent_files = ['1.py', 'featureextraction.py', 'preprocessing.py', 'example.py', 'userinterface1.py', 'ui1.py']
+recent_files = ['featureextraction.py', 'preprocessing.py', 'example.py', 'userinterface1.py', 'ui1.py', 'modelbuilding.py', '1.py']
 

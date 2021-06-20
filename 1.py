@@ -29,7 +29,7 @@ def skeletonize(image_input):
     image=np.zeros_like(image_input)
     image[image_input==0]=1.0
     ouput=np.zeros_like(image_input)
-    skeletone=skelt(image)
+    skeletone=skelt(image)  
     output[skelton]=255
     cv2.bitwise_not(ouput,output)
     return output
